@@ -1,0 +1,32 @@
+# ---------- Android ----------
+android-app/*.iml
+android-app/.gradle
+android-app/local.properties
+android-app/.idea
+android-app/.DS_Store
+android-app/build/
+android-app/captures/
+android-app/*.apk
+android-app/*.aab
+
+# ---------- Node / Backend ----------
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/*.log
+
+# ---------- Secrets (never commit these) ----------
+**/.env
+**/*.env.local
+**/serviceAccountKey.json
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Internal planning docs (not tracked, kept local-only) ----------
+CLAUDE.md
+CLAUDE_AGENT_FIRST_PROMPT.md
+docs/
+specs/
+.claude/
